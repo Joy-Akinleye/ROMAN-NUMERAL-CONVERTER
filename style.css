@@ -27,7 +27,7 @@ body {
 }
 
 .enter {
-    width: 450px;
+    width: 480px;
     height: 230px;
     border: 2px solid white;
     margin: 30px 0;
@@ -46,7 +46,7 @@ body {
 
 .enter input {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     font-size: 24px;
     font-weight: 600;
     background-color: #41506b;
@@ -57,7 +57,7 @@ body {
 .enter button {
     margin: 20px 0;
     padding: 15px;
-    width: 300px;
+    width: 350px;
     background-color: #aa4b6b;
     font-weight: 550;
     font-size: 18px;
@@ -72,16 +72,16 @@ body {
 
 #resultBox {
     display: none;
-    width: 450px;
-    height: 60px;
+    place-items: center;
+    width: 480px;
+    height: 80px;
     border: 2px solid #fff;
 }
 
 #output {
-    margin: auto;
-    justify-self: center;
+    margin: 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 550;
     padding: 5px;
 }
